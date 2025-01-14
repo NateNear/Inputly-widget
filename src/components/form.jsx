@@ -33,7 +33,6 @@ function Form({ title, projectId }) {
           }
         ])
         .select();
-        console.log("data", data)
       if (supabaseError) {
         throw supabaseError;
       }

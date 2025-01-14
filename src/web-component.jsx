@@ -12,6 +12,7 @@ class FeedbackComponent extends HTMLElement {
   connectedCallback() {
     const props = {
       title: this.getAttribute("title") || "Send us your feedback",
+      projectId: this.getAttribute("projectid")
     };
 
     // Create root and render properly
